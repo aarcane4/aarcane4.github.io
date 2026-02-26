@@ -9,6 +9,28 @@
 
 .printContent {
   position: relative;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* Justify paragraphs */
+.printContent p {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+/* Justify unordered lists */
+.printContent ul {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Justify list items */
+.printContent li {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 10px;
 }
 
 .tight li {

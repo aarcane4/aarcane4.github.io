@@ -17,11 +17,13 @@
 }
 
 body {
-  font-size: 2rem;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  letter-spacing: 0.3px;
   padding: 30px;
-  font-family: 'Main', sans-serif;
+  font-family: 'IBM Plex Mono', monospace; /* or your chosen font */
   background-color: var(--main-bg-color);
-  color: #fff;
+  color: #ffffff;
 }
 
 .secret-link {
@@ -183,15 +185,7 @@ footer {
 }
 
 @media print {
-  html,
-  body {
-    width: 8.5in;
-    height: 11in !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow: visible !important;
-    background: #fff !important;
-    -webkit-print-color-adjust: exact;
-    print-color-adjust: exact;
+ body {
+    display: none !important;
   }
 }
